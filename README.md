@@ -38,10 +38,12 @@ do {
 
 Sample code for adding a new model object (record) to Core Data 
 
+```swift 
 let model = Model(entity: Model.entity(), insertInto: context)
 model.propertyName = someData 
 appDelegate.saveContext()  // save the new model object to the managed object content
 // update your collection ui as needed 
+```
 
 ## 5. Available types 
 
