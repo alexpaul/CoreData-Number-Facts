@@ -42,7 +42,7 @@
                     <navigationItem key="navigationItem" title="Users" id="3Bc-D4-z71">
                         <barButtonItem key="rightBarButtonItem" title="Item" image="plus" catalog="system" id="jd3-4B-NEf">
                             <connections>
-                                <segue destination="L6z-c5-2cW" kind="presentation" id="GuW-XX-Ok0"/>
+                                <segue destination="L6z-c5-2cW" kind="presentation" identifier="createUserSegue" id="GuW-XX-Ok0"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -95,9 +95,6 @@
                                             <subviews>
                                                 <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" translatesAutoresizingMaskIntoConstraints="NO" id="5eg-RK-vd5">
                                                     <rect key="frame" x="0.0" y="42" width="414" height="216"/>
-                                                    <connections>
-                                                        <action selector="datePickerChanged:" destination="L6z-c5-2cW" eventType="valueChanged" id="DGe-Mg-SmS"/>
-                                                    </connections>
                                                 </datePicker>
                                             </subviews>
                                             <constraints>
@@ -138,12 +135,13 @@
                         </connections>
                     </tableView>
                     <connections>
+                        <outlet property="datePicker" destination="5eg-RK-vd5" id="eTq-WM-Ndr"/>
                         <outlet property="usernameTextField" destination="Vzm-EO-93J" id="1DQ-PV-fz5"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T0I-jt-lKh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1021.7391304347827" y="737.94642857142856"/>
+            <point key="canvasLocation" x="1022" y="846"/>
         </scene>
         <!--Create Post View Controller-->
         <scene sceneID="Qmt-7t-wmD">

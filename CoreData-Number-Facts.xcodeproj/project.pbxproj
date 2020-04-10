@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57390B0C243F753F006DBB96 /* Post+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57390B08243F753F006DBB96 /* Post+CoreDataClass.swift */; };
+		57390B0E243F753F006DBB96 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57390B0A243F753F006DBB96 /* User+CoreDataClass.swift */; };
+		57390B22243F78FD006DBB96 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57390B20243F78FD006DBB96 /* User+CoreDataProperties.swift */; };
+		57390B23243F78FD006DBB96 /* Post+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57390B21243F78FD006DBB96 /* Post+CoreDataProperties.swift */; };
+		57390B25243F7DA0006DBB96 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57390B24243F7DA0006DBB96 /* CoreDataManager.swift */; };
 		57E49B68243E378D00160079 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E49B67243E378D00160079 /* AppDelegate.swift */; };
 		57E49B6A243E378D00160079 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E49B69243E378D00160079 /* SceneDelegate.swift */; };
 		57E49B6C243E378D00160079 /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E49B6B243E378D00160079 /* PostsViewController.swift */; };
@@ -14,14 +19,17 @@
 		57E49B72243E378D00160079 /* CoreData_Number_Facts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 57E49B70243E378D00160079 /* CoreData_Number_Facts.xcdatamodeld */; };
 		57E49B74243E378E00160079 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57E49B73243E378E00160079 /* Assets.xcassets */; };
 		57E49B77243E378E00160079 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57E49B75243E378E00160079 /* LaunchScreen.storyboard */; };
-		57E49B82243E435700160079 /* LocalUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E49B81243E435700160079 /* LocalUser.swift */; };
-		57E49B84243E436300160079 /* LocalPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E49B83243E436300160079 /* LocalPost.swift */; };
 		57E49B86243E439900160079 /* CreatePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E49B85243E439900160079 /* CreatePostViewController.swift */; };
 		57E49B88243E43AE00160079 /* CreateUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E49B87243E43AE00160079 /* CreateUserViewController.swift */; };
 		57E49B8A243E43C500160079 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E49B89243E43C500160079 /* UsersViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		57390B08243F753F006DBB96 /* Post+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Post+CoreDataClass.swift"; sourceTree = "<group>"; };
+		57390B0A243F753F006DBB96 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		57390B20243F78FD006DBB96 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		57390B21243F78FD006DBB96 /* Post+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Post+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		57390B24243F7DA0006DBB96 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		57E49B64243E378D00160079 /* CoreData-Number-Facts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoreData-Number-Facts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57E49B67243E378D00160079 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57E49B69243E378D00160079 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,8 +39,6 @@
 		57E49B73243E378E00160079 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57E49B76243E378E00160079 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57E49B78243E378E00160079 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		57E49B81243E435700160079 /* LocalUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalUser.swift; sourceTree = "<group>"; };
-		57E49B83243E436300160079 /* LocalPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalPost.swift; sourceTree = "<group>"; };
 		57E49B85243E439900160079 /* CreatePostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostViewController.swift; sourceTree = "<group>"; };
 		57E49B87243E43AE00160079 /* CreateUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserViewController.swift; sourceTree = "<group>"; };
 		57E49B89243E43C500160079 /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
@@ -72,7 +78,6 @@
 				57E49B7E243E431A00160079 /* Controllers */,
 				57E49B7F243E432C00160079 /* Supporting Files */,
 				57E49B78243E378E00160079 /* Info.plist */,
-				57E49B70243E378D00160079 /* CoreData_Number_Facts.xcdatamodeld */,
 			);
 			path = "CoreData-Number-Facts";
 			sourceTree = "<group>";
@@ -103,8 +108,12 @@
 		57E49B80243E433B00160079 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				57E49B81243E435700160079 /* LocalUser.swift */,
-				57E49B83243E436300160079 /* LocalPost.swift */,
+				57390B20243F78FD006DBB96 /* User+CoreDataProperties.swift */,
+				57390B21243F78FD006DBB96 /* Post+CoreDataProperties.swift */,
+				57390B08243F753F006DBB96 /* Post+CoreDataClass.swift */,
+				57390B24243F7DA0006DBB96 /* CoreDataManager.swift */,
+				57390B0A243F753F006DBB96 /* User+CoreDataClass.swift */,
+				57E49B70243E378D00160079 /* CoreData_Number_Facts.xcdatamodeld */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -182,13 +191,16 @@
 			files = (
 				57E49B6C243E378D00160079 /* PostsViewController.swift in Sources */,
 				57E49B86243E439900160079 /* CreatePostViewController.swift in Sources */,
-				57E49B82243E435700160079 /* LocalUser.swift in Sources */,
 				57E49B88243E43AE00160079 /* CreateUserViewController.swift in Sources */,
+				57390B0E243F753F006DBB96 /* User+CoreDataClass.swift in Sources */,
 				57E49B72243E378D00160079 /* CoreData_Number_Facts.xcdatamodeld in Sources */,
 				57E49B68243E378D00160079 /* AppDelegate.swift in Sources */,
+				57390B25243F7DA0006DBB96 /* CoreDataManager.swift in Sources */,
+				57390B0C243F753F006DBB96 /* Post+CoreDataClass.swift in Sources */,
+				57390B23243F78FD006DBB96 /* Post+CoreDataProperties.swift in Sources */,
 				57E49B6A243E378D00160079 /* SceneDelegate.swift in Sources */,
+				57390B22243F78FD006DBB96 /* User+CoreDataProperties.swift in Sources */,
 				57E49B8A243E43C500160079 /* UsersViewController.swift in Sources */,
-				57E49B84243E436300160079 /* LocalPost.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
