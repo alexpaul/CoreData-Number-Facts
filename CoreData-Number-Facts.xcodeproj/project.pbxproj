@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5701D4102441ECE800752517 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5701D40F2441ECE800752517 /* User+CoreDataProperties.swift */; };
 		57390B0C243F753F006DBB96 /* Post+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57390B08243F753F006DBB96 /* Post+CoreDataClass.swift */; };
 		57390B0E243F753F006DBB96 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57390B0A243F753F006DBB96 /* User+CoreDataClass.swift */; };
-		57390B22243F78FD006DBB96 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57390B20243F78FD006DBB96 /* User+CoreDataProperties.swift */; };
 		57390B23243F78FD006DBB96 /* Post+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57390B21243F78FD006DBB96 /* Post+CoreDataProperties.swift */; };
 		57390B25243F7DA0006DBB96 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57390B24243F7DA0006DBB96 /* CoreDataManager.swift */; };
 		57E49B68243E378D00160079 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E49B67243E378D00160079 /* AppDelegate.swift */; };
@@ -25,9 +25,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5701D40F2441ECE800752517 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		57390B08243F753F006DBB96 /* Post+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Post+CoreDataClass.swift"; sourceTree = "<group>"; };
 		57390B0A243F753F006DBB96 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
-		57390B20243F78FD006DBB96 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		57390B21243F78FD006DBB96 /* Post+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Post+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		57390B24243F7DA0006DBB96 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		57E49B64243E378D00160079 /* CoreData-Number-Facts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoreData-Number-Facts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,11 +108,11 @@
 		57E49B80243E433B00160079 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				57390B20243F78FD006DBB96 /* User+CoreDataProperties.swift */,
+				5701D40F2441ECE800752517 /* User+CoreDataProperties.swift */,
 				57390B21243F78FD006DBB96 /* Post+CoreDataProperties.swift */,
 				57390B08243F753F006DBB96 /* Post+CoreDataClass.swift */,
-				57390B24243F7DA0006DBB96 /* CoreDataManager.swift */,
 				57390B0A243F753F006DBB96 /* User+CoreDataClass.swift */,
+				57390B24243F7DA0006DBB96 /* CoreDataManager.swift */,
 				57E49B70243E378D00160079 /* CoreData_Number_Facts.xcdatamodeld */,
 			);
 			path = Models;
@@ -191,6 +191,7 @@
 			files = (
 				57E49B6C243E378D00160079 /* PostsViewController.swift in Sources */,
 				57E49B86243E439900160079 /* CreatePostViewController.swift in Sources */,
+				5701D4102441ECE800752517 /* User+CoreDataProperties.swift in Sources */,
 				57E49B88243E43AE00160079 /* CreateUserViewController.swift in Sources */,
 				57390B0E243F753F006DBB96 /* User+CoreDataClass.swift in Sources */,
 				57E49B72243E378D00160079 /* CoreData_Number_Facts.xcdatamodeld in Sources */,
@@ -199,7 +200,6 @@
 				57390B0C243F753F006DBB96 /* Post+CoreDataClass.swift in Sources */,
 				57390B23243F78FD006DBB96 /* Post+CoreDataProperties.swift in Sources */,
 				57E49B6A243E378D00160079 /* SceneDelegate.swift in Sources */,
-				57390B22243F78FD006DBB96 /* User+CoreDataProperties.swift in Sources */,
 				57E49B8A243E43C500160079 /* UsersViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -21,7 +21,6 @@ class PostsViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     tableView.dataSource = self
-    tableView.delegate = self
     fetchPosts()
   }
   
@@ -51,13 +50,6 @@ extension PostsViewController: UITableViewDataSource {
     return cell
   }
 
-}
-
-extension PostsViewController: UITableViewDelegate {
-  func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-    return 44
-    
-  }
 }
 
 extension PostsViewController: CreatePostDelegate {

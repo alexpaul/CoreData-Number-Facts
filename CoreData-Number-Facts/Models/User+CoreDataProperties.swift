@@ -2,7 +2,7 @@
 //  User+CoreDataProperties.swift
 //  CoreData-Number-Facts
 //
-//  Created by Alex Paul on 4/9/20.
+//  Created by Alex Paul on 4/11/20.
 //  Copyright © 2020 Alex Paul. All rights reserved.
 //
 //
@@ -21,7 +21,6 @@ extension User {
     @NSManaged public var name: String?
     @NSManaged public var twitter: String?
     @NSManaged public var posts: NSSet?
-
 }
 
 // MARK: Generated accessors for posts
