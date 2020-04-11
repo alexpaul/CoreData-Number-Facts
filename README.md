@@ -85,3 +85,7 @@ dump(posts)
        - super: NSObject
 */
 ```
+
+## Additional Resources 
+
+1. [Saving an array to Core Data](https://gist.github.com/alexpaul/f4d7ed66101613e892e50e8317ab30ca)
