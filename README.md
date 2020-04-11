@@ -65,7 +65,7 @@ appDelegate.saveContext()  // save the new model object to the managed object co
 1. Transformable (NSObject -> NSData)
 
 
-## 6. Retriving all objects from an NSSet (relationship) 
+## 6. Retrieving all objects from an NSSet (relationship) 
 
 Below we are retrieving all the user's posts.
 
