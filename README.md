@@ -63,3 +63,25 @@ appDelegate.saveContext()  // save the new model object to the managed object co
 1. UUID 
 1. URI 
 1. Transformable (NSObject -> NSData)
+
+
+## 6. Retriving all objects from an NSSet (relationship) 
+
+Below we are retrieving all the user's posts.
+
+```swift 
+// get a specific user's posts
+let posts = user.posts?.allObjects as? [Post] ?? []
+dump(posts)
+/*
+ ▿ 1 element
+   - <CoreData_Number_Facts.Post: 0x6000037ed400> (entity: Post; id: 0x920d371640595395 <x-coredata://C8C1F783-B07D-4670-A26B-4026C71513C7/Post/p2>; data: {
+     location = nil;
+     number = "2912.8";
+     title = "Distance from New York to California (in miles)";
+     user = "0x920d371640555397 <x-coredata://C8C1F783-B07D-4670-A26B-4026C71513C7/User/p1>";
+ }) #0
+     - super: NSManagedObject
+       - super: NSObject
+*/
+```
