@@ -90,3 +90,4 @@ dump(posts)
 
 1. [Saving an array to Core Data](https://gist.github.com/alexpaul/f4d7ed66101613e892e50e8317ab30ca)
 1. [Apple - Configuring Attributes](https://developer.apple.com/documentation/coredata/modeling_data/configuring_attributes?language=objc)
+1. [StackOverflow - Optionals in Core Data vs Swift](https://stackoverflow.com/questions/33548350/xcode-nsmanagedobject-subclass-contains-optionals-when-they-are-marked-as-non-op)
