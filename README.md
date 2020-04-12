@@ -89,3 +89,4 @@ dump(posts)
 ## Additional Resources 
 
 1. [Saving an array to Core Data](https://gist.github.com/alexpaul/f4d7ed66101613e892e50e8317ab30ca)
+1. [Apple - Configureing Attributes](https://developer.apple.com/documentation/coredata/modeling_data/configuring_attributes?language=objc)
